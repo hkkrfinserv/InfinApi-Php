@@ -42,8 +42,8 @@ class NorenRoutes {
 }
 
 // Example Usage:
-$baseUrl = 'http://matsya.kambala.co.in:9959/NorenWClient'; // Replace with your main URL
-$websocketUrl="ws://matsya.kambala.co.in:9657/NorenWS/";  // Replace with your websocket URL
+$baseUrl = 'http://www.example.com/NorenWClient'; // Replace with your main URL
+$websocketUrl="ws://www.example.com/NorenWS/";  // Replace with your websocket URL
 $norenRoutes = new NorenRoutes($baseUrl);
 
 ?>
