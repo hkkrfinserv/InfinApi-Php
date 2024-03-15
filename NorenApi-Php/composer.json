@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/yaml": "^5.0",
+        "cboden/ratchet": "^0.4.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "textalk/websocket": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "vendor/guzzlehttp/guzzle/src/"
+        }
+    }
+}
