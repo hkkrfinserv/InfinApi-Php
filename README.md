@@ -7,7 +7,8 @@ Api used to connect to NorenOMS
 
 to build this package and install it on your server please use
 
-``` composer install sudo apt-get install php-curl```
+``` composer install ```
+``` sudo apt-get install php-curl```
 
 and change the API URL and websocket URL in NorenRoutes.php file.
 
