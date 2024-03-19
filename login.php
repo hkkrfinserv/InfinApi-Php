@@ -4,17 +4,18 @@ include 'NorenRequests.php';
 
 
 
-$Password = sha256('Test@123');
+$Password = sha256('Password@123');          #password of investor user.
+$appkey=sha256('USERID|test123api');   #uid|vendorkey
 
 $jData = [
     "apkversion" => "1.0.9",
-    "uid" => "ANNAPA",
+    "uid" => "USERID",
     "pwd" => $Password,
-    "factor2" => "2001",
+    "factor2" => "01-01-1970",
     "imei" => "ag3tbbbb33",
     "source" => "API",
-    "vc" => "ANNAPA",
-    "appkey" => "1f4a90f5d57d4204b01a7b8eb61836806bd2b4570ded6a1d80bc4b1c87046f7f"
+    "vc" => "Vendor_Code",
+    "appkey" => $appkey
 ];
 
 // Encode the data as JSON
